@@ -5,6 +5,7 @@
     "name": "Selfish",
     "kind": "company_project_root",
     "status": "active",
+    "repository": "https://github.com/droog126/selfish-company",
     "legal_status": "待完成法律实体登记",
     "management_scope": [
       "project_registry",
