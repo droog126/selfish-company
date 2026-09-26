@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "company": {
+    "id": "selfish-company",
+    "name": "Selfish",
+    "kind": "company_project_root",
+    "status": "active",
+    "legal_status": "待完成法律实体登记",
+    "management_scope": [
+      "project_registry",
+      "company_member_intake",
+      "project_admission_records",
+      "public_evidence_index"
+    ]
+  },
+  "projects": [
+    {
+      "id": "lastkingdom2-game",
+      "name": "万国起源 / Last Kingdom",
+      "kind": "game_subsidiary",
+      "parent_company": "selfish-company",
+      "owner": "droog126",
+      "status": "active",
+      "repository": "https://github.com/droog126/lastkingdom2",
+      "membership": "company_registration_then_project_admission",
+      "ledger": "independent",
+      "parent_authority": "project_management_only"
+    }
+  ]
+}
